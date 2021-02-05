@@ -1,0 +1,49 @@
+background_opacity: 0.9
+
+columns: 73
+lines: 19
+
+colors:
+  bright:
+    black: '0x1c1c1c'
+    red: '0xd81860'
+    green: '0x60ff60'
+    yellow: '0xf9fd75'
+    blue: '0x4695c8'
+    magenta: '0xa78edb'
+    cyan: '0x43afce'
+    white: '0xf3ebe2'
+
+  normal:
+    black: '0x4d4d4d'
+    red: '0xf00060'
+    green: '0x70ff70'
+    yellow: '0xf9fd80'
+    blue: '0x5a9dc8'
+    magenta: '0xb29fdb'
+    cyan: '0x69b8ce'
+    white: '0xeeeeee'
+
+  primary:
+    background: '0x101010'
+    foreground: '0xc5c9de'
+
+font:
+  bold:
+    family: Hack Nerd Font
+  italic:
+    family: Hack Nerd Font
+  normal:
+    family: Hack Nerd Font
+  size: 6.5
+
+window:
+  padding:
+    x: 15
+    y: 15
+
+cursor:
+    # - Block
+    # - Underline
+    # - Beam
+    style: Underline
