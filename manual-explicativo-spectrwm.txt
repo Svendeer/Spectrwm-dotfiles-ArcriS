@@ -77,3 +77,29 @@ alias ..="cd .."
 alias rm="rm -rfv"
 alias cp="cp -v"
 alias archfetch="sh ~/.config/ArchFetch.sh"
+
+_________________________________________________________________________________________________
+
+Colores, fuentes y fondos de la barra de estado del gestor de ventanas.
+Los colores, fuentes y fondos se definen en formato rgb. Pero, es sencillo: basta con que instales el programa gcolor, selecciones el color que te guste, ir al archivo de configuración y hacer lo siguiente:
+
+Color: 800000
+
+rgb: 80/00/00
+
+Como ves, solo debes poner el slash entre cada par de números.
+
+Luego, se invocan usando la siguiente sintaxis: +@fg=x; +@gb=x;
+
+Donde X es el número de línea que ocupa el color, empezando desde el 0.
+
+Fuentes.
+Las fuentes también se definen así: Hack Nerd Font:size=9:antialias=true
+Se invocan usando: +@fn=x;
+
+Donde x es el número de la fuente, empzando por 0.
+
+Si quieres profundizar un poco mas, puedes abrir una terminal y ejecutar:
+man spectrwm
+
+Esto abrirá el manual del gestor de ventanas, eso sí: en inglés.

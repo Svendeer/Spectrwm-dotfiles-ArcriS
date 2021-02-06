@@ -1,40 +1,55 @@
 #!/bin/env bash
 
-Music(){
-    song=$(cmus-remote -Q | awk '/tag title/  {$1=$2=""; t=$0} END {print b t}')
-    echo $song
-}
-
 Updates(){
     updates="$(pacman -Qqu | wc -l)"
-    echo $updates
+    echo " +@bg=0; +@fg=1;  $updates"
 }
 
 Time(){
     time=$(date +'%H:%M')
-    echo $time
+    echo " +@bg=1; +@fg=0;  $time"
 }
 
 Date(){
-	date=$(date +'%A/%d/%B/%Y')
-	echo $date
+	date=$(date +'%a/%d/%b')
+	echo " +@bg=0; +@fg=1;  $date"
 }
 
 Volume(){
 	VOL=$(pamixer --get-volume)
-	echo $VOL%
+	echo " +@bg=1; +@fg=0;  $VOL%"
 }
 
 Brightness(){
-	echo $(light)%
+	echo " +@bg=0; +@fg=1;  $(light)%"
 }
 
 Memory(){
     RAM=$(free -m | awk 'NR==2{printf "%s/%sMB (%.2f%%)\n", $3,$2,$3*100/$2 }')
-	echo $RAM
+	echo " +@bg=1; +@fg=0;  $RAM"
 }
 
+Network(){
+    read lo int1 int2 <<< `ip link | sed -n 's/^[0-9]: \(.*\):.*$/\1/p'`
+	if iwconfig $int1 >/dev/null 2>&1; then
+	    wifi=$int1
+	    eth0=$int2
+	else 
+	    wifi=$int2
+	    eth0=$int1
+	fi
+
+    ip link show $eth0 | grep 'state UP' >/dev/null && int=$eth0 || int=$wifi
+
+    echo -n "+@bg=0; +@fg=1; 泌 $int"
+
+    ping -c1 -s1 8.8.8.8 >/dev/null 2>&1 && echo "Conectado." || echo "Desconectado."
+}
+# 
+# 泌
+# 
+
 while :; do
-    echo " +@bg=1;  $(Music) +@bg=2;  $(Updates) +@bg=1;  $(Time) +@bg=2;  $(Date) +@bg=1;  $(Volume) +@bg=2;  $(Brightness) +@bg=1;  $(Memory) "
+    echo "$(Updates) $(Time) $(Date) $(Volume) $(Brightness) $(Memory) $(Network)"
 	sleep 0.1
 done
