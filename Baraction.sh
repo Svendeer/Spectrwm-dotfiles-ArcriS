@@ -1,8 +1,10 @@
 #!/bin/env bash
 
+# Pequeño script para la barra de estado
+
 Updates(){
     updates="$(pacman -Qqu | wc -l)"
-    echo " +@bg=0; +@fg=1;  $updates"
+    echo " +@bg=0; +@fg=1;|  $updates"
 }
 
 Time(){

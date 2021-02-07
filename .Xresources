@@ -1,0 +1,50 @@
+! Use a nice truetype font and size by default... 
+xterm*faceName: Hack Nerd Font:style=Italic:pixelsize=8:antialias=true:autohint=true
+!xterm*faceSize: 7
+! Size
+xterm*geometry: 80x24
+
+! Every shell is a login shell by default (for inclusion of all necessary environment variables)
+xterm*loginshell: true
+
+! I like a LOT of scrollback...
+xterm*savelines: 16384
+
+! double-click to select whole URLs :D
+xterm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+
+! DOS-box colours...
+xterm*foreground: #66ff66
+xterm*background: #101010
+xterm*cursorColor: #ffffff
+xterm*color0: #1c1c1c
+xterm*color1: #d81860
+xterm*color2: #f3ebe2
+xterm*color3: #f9fd75
+xterm*color4: #4695c8
+xterm*color5: #a78edb
+xterm*color6: #43afce
+xterm*color7: #60ff60
+
+xterm*color8: #4d4d4d
+xterm*color9: #f00060
+xterm*color10:#eeeeee
+xterm*color11:#f9fd80
+xterm*color12:#5a9dc8
+xterm*color13:#b29fdb
+xterm*color14:#69b8ce
+xterm*color15:#70ff70
+
+! right hand side scrollbar...
+xterm*rightScrollBar: true
+xterm*ScrollBar: false
+
+XTerm.vt100.locale: true
+
+! stop output to terminal from jumping down to bottom of scroll again
+xterm*scrollTtyOutput: false
+
+! copy & paste like the normal terminals
+*vt100.translations: #override \n\
+Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
