@@ -1,12 +1,6 @@
 # Spectrwm-dotfiles
 Configuración personal de SpectrWM.
 
- __  __                         _
-|  \/  | __ _ _ __  _   _  __ _| |
-| |\/| |/ _` | '_ \| | | |/ _` | |
-| |  | | (_| | | | | |_| | (_| | |
-|_|  |_|\__,_|_| |_|\__,_|\__,_|_|
-
 Spectrwm trabaja bajo un archivo ubicado en la carpeta del usuario, llamado .spectrwm.conf
 En dicho fichero puedes definir aplicaciones que se iniciarán al inicio, atajos de teclado y configuraciones adicionales.
 Dicho archivo trae algunos comentarios útiles para que te sea mas fácil entender todo.
@@ -89,4 +83,3 @@ Mod+Shift+Enter: abrir alacritty;
 Mod+Q: recargar el gestor de ventana;
 Mod+Shift+Q: salir del gestor de ventanas;
 Mod1+S: hacer captura de pantalla. (Mod1 = Tecla alt).
-
