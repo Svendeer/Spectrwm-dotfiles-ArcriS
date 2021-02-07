@@ -48,40 +48,7 @@ Mod+Shift+P: abre pcmanfm
 
 Luego, puedes agregar los atajos para los navegadores que vayas a utilizar y demás programas. Espero que disfrutes de este gestor de ventanas ultra minimalista.
 
-____________________________________________________________________________________________________________________________________________________________________________________
-
-Fichero .bashrc
-
-El prompt de bash viene con una ayuda para los desarrolladores: la integración de un indicador de git en el prompt, para detectar cambios hechos en el repositorio.
-Dicho prompt no es mío, puedes verlo aquí: https://github.com/romkatv/gitstatus.git. Sólo me he dado a la tarea de agregarlo a mi prompt de bash para tenerlo un poco más completo.
-Además, el fichero .bashrc trae alias personalizados, para hacer mas rápido el trabajo. Dichos alias se detallan acontinuación:
-
-alias s="sudo"
-alias p="pacman"
-alias v="vim"
-alias sv="sudo vim"
-alias l="ls -la"
-alias la="ls -la"
-alias mv="mv -v"
-alias cf="cd ~/.config"
-alias sp="sudo pacman"
-alias py="python3"
-alias cl="clear"
-alias sc="source"
-alias r="ranger"
-alias x="exit"
-alias pof="poweroff"
-alias gc="git clone"
-alias gm="git commit -m"
-alias gl="git log"
-alias ga="git add"
-alias gs="git status"
-alias ..="cd .."
-alias rm="rm -rfv"
-alias cp="cp -v"
-alias archfetch="sh ~/.config/ArchFetch.sh"
-
-_________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________
 
 Colores, fuentes y fondos de la barra de estado del gestor de ventanas.
 Los colores, fuentes y fondos se definen en formato rgb. Pero, es sencillo: basta con que instales el programa gcolor, selecciones el color que te guste, ir al archivo de configuración y hacer lo siguiente:
