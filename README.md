@@ -1,4 +1,4 @@
-![Resultado](https://raw.githubusercontent.com/Svendeer/Spectrwm-dotfiles/blob/main/2021-02-07-121224_1366x768_scrot.png)
+![Resultado](https://raw.githubusercontent.com/Svendeer/Spectrwm-dotfiles/main/2021-02-07-121224_1366x768_scrot.png)
 
 # Spectrwm-dotfiles
 Configuración personal de SpectrWM.
