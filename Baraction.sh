@@ -47,9 +47,6 @@ Network(){
 
     ping -c1 -s1 8.8.8.8 >/dev/null 2>&1 && echo "Conectado." || echo "Desconectado."
 }
-# 
-# 泌
-# 
 
 while :; do
     echo "$(Updates) $(Time) $(Date) $(Volume) $(Brightness) $(Memory) $(Network)"
