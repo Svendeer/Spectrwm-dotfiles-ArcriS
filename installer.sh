@@ -14,7 +14,7 @@ intro(){
 	sleep 3
 }
 installRequeriments(){
-	echo "****************************************************************************************"
+	echo "****************************************************************************************************************"
 	echo "Instalando requerimentos previos..."
 	sleep 5
 
@@ -30,7 +30,7 @@ initialConfigs(){
 	sleep 5
 	
 	echo ""
-	echo "****************************************************************************************"
+	echo "****************************************************************************************************************"
 	cp -v .spectrwm.conf $HOME
 	sleep 2
 	cp -v .spectrwm_es.conf $HOME
@@ -42,7 +42,7 @@ initialConfigs(){
 }
 
 installFonts(){
-		echo "****************************************************************************************"
+	echo "****************************************************************************************************************"
 	echo "Instalando fuentes necesarias. Esto requiere acciones de superusuario."
 	sleep 5
 	sudo cp -v fonts/* /usr/share/fonts
@@ -50,7 +50,7 @@ installFonts(){
 
 setTerminals(){
 	echo ""
-	echo "****************************************************************************************"
+	echo "****************************************************************************************************************"
 	echo "Aplicaremos las configuraciones de las terminales, en este caso, ST y Alacritty."
 	sleep 5
 	cp .Xresources $HOME
@@ -63,7 +63,7 @@ setTerminals(){
 
 setRanger(){
 	echo ""
-	echo "****************************************************************************************"
+	echo "****************************************************************************************************************"
 	echo "Config para Ranger, esto necesita tener instalado w3m."
 	sleep 5
 	cd ..
@@ -72,7 +72,7 @@ setRanger(){
 
 setVim(){
 	echo ""
-	echo "****************************************************************************************"
+	echo "****************************************************************************************************************"
 	echo "Si usas vim, ahí va una ayudita ;) Úsalo bajo zsh, ya que con bash, por alguna razón que desconozco, no se ve bien."
 	sleep 5
 	cp -v .vimrc $HOME
@@ -83,7 +83,7 @@ setVim(){
 
 additionalsProgramms(){
 	echo ""
-	echo "****************************************************************************************"
+	echo "****************************************************************************************************************"
 	echo "Instalaremos programas adicionales: "
 	sudo pacman -S telegram-desktop zsh alsa-utils ueberzug picom neofetch --needed --noconfirm
 	#sudo systemctl enable lightdm.service
