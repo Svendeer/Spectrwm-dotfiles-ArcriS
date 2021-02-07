@@ -85,7 +85,7 @@ additionalsProgramms(){
 	echo ""
 	echo "****************************************************************************************************************"
 	echo "Instalaremos programas adicionales: "
-	sudo pacman -S telegram-desktop zsh alsa-utils ueberzug picom neofetch --needed --noconfirm
+	sudo pacman -S telegram-desktop zsh alsa-utils ueberzug picom neofetch firefox --needed --noconfirm
 	#sudo systemctl enable lightdm.service
 	sleep 5
 }
