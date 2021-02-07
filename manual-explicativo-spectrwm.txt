@@ -103,3 +103,19 @@ Si quieres profundizar un poco mas, puedes abrir una terminal y ejecutar:
 man spectrwm
 
 Esto abrirá el manual del gestor de ventanas, eso sí: en inglés.
+
+###################################
+
+Algunos atajos de teclado:
+Mod+T: crear ventana flotante;
+Mod+X: Cerrar ventana actual;
+Mod+Shift+{num}: mover ventana actual hacia un escritorio;
+Mod+{num}: ir a un escritorio;
+Mod+P: abrir rofi;
+Mod+Shift+P: Abrir PcmanFM;
+Mod+Shift+T: abrir Telegram;
+Mod+Enter: abrir ST;
+Mod+Shift+Enter: abrir alacritty;
+Mod+Q: recargar el gestor de ventana;
+Mod+Shift+Q: salir del gestor de ventanas;
+Mod1+S: hacer captura de pantalla. (Mod1 = Tecla alt).
