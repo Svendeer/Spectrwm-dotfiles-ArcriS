@@ -1,6 +1,10 @@
 # Spectrwm-dotfiles
 Configuración personal de SpectrWM.
 
+Ejecuta el fichero installer.sh
+
+Antes, edital
+
 Spectrwm trabaja bajo un archivo ubicado en la carpeta del usuario, llamado .spectrwm.conf
 En dicho fichero puedes definir aplicaciones que se iniciarán al inicio, atajos de teclado y configuraciones adicionales.
 Dicho archivo trae algunos comentarios útiles para que te sea mas fácil entender todo.
