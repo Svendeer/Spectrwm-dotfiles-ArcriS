@@ -1,5 +1,3 @@
-![alt text](https://https://github.com/Svendeer/Spectrwm-dotfiles/blob/main/2021-02-07-121224_1366x768_scrot.png)
-
 # Spectrwm-dotfiles
 Configuración personal de SpectrWM.
 
