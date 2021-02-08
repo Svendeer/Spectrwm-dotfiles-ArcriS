@@ -1,4 +1,5 @@
 # Spectrwm-dotfiles
+# Proyecto ArcriS.
 
 ![Resultado](https://raw.githubusercontent.com/Svendeer/Spectrwm-dotfiles/main/2021-02-07-121224_1366x768_scrot.png)
 
