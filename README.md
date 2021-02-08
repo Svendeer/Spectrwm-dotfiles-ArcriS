@@ -51,7 +51,7 @@ Mod+Shift+P: abre pcmanfm
 Luego, puedes agregar los atajos para los navegadores que vayas a utilizar y demás programas. Espero que disfrutes de este gestor de ventanas ultra minimalista.
 
 ---
-###Colores, fuentes y fondos de la barra de estado del gestor de ventanas.
+### Colores, fuentes y fondos de la barra de estado del gestor de ventanas.
 **Los colores, fuentes y fondos** se definen en formato **RGB**. Pero, es sencillo: basta con que instales el programa gcolor, selecciones el color que te guste, ir al archivo de configuración y hacer lo siguiente:
 
 `Color: 800000`
