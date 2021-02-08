@@ -4,6 +4,10 @@
 
 Configuración personal de SpectrWM.
 
+### Clona este reositorio
+### Entra a la carpeta `Spectrwm-dotfiles`
+### `chmod +x installer.sh`
+### Edita el fichero `installer.sh` para seleccionar qué programas deseas instalar.
 ### Ejecuta el fichero `installer.sh`
 
 **Spectrwm** trabaja bajo un archivo ubicado en la carpeta del usuario, llamado `.spectrwm.conf`
