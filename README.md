@@ -64,7 +64,7 @@ Luego, se invocan usando la siguiente sintaxis: `+@fg=x; +@gb=x;`
 
 Donde **X** es el número de línea que ocupa el color, empezando desde el 0.
 
-###Fuentes.
+### Fuentes.
 Las fuentes también se definen así: `Hack Nerd Font:size=9:antialias=true`
 Se invocan usando: `+@fn=x;`
 
